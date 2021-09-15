@@ -1,0 +1,60 @@
+.App{
+    text-align: center;
+}
+.App-logo{
+    height: 40vmin;
+}
+@media(prefers-reduced-motion:no-preference){
+    .App-logo{
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+.App-header{
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px+2vmin);
+    
+}
+.live{
+    text-align: center;
+margin-top: 25px;
+font-size: medium;
+}
+.write{
+    text-align: center;
+}
+.card{
+    width: 270px;
+    height: 160px;
+    text-align: center;
+    background-color: #0aa1c7;
+    color: white;
+    cursor: pointer;
+}
+.sec{
+   margin-top: 50px; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.s1{
+    font-size: 10px;
+    margin-right: 5px;
+
+}
+
+.card_total{
+    font-size: 40px;
+    margin-top: -15px;
+    font-family: 'Noto Sans KR', sans-serif;
+text-shadow: black 0px 1px  ;
+}
+.may{
+    background-color: black;
+}
+
+
